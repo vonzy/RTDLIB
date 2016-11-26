@@ -103,7 +103,7 @@ RINEX 3.00,3.02 OBS/NAV
 
 许可证
 
-RTDLIB是由开源项目goGPS_Java(https://github.com/goGPS-Project/goGPS_Java)修改而来，
+RTDLIB是由开源项目goGPS_Java(https://github.com/goGPS-Project/goGPS_Java) 修改而来，
 因此其继承了goGPS_Java的LGPL协议。所有用户都需要在LGPL许可证的约束下进行开发、发布及
 销售直接使用或间接使用到RTDLIB的相关程序。
 
