@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="EJML-simple-0.29">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/EJML-simple-0.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/EJML-core-0.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/EJML-dense64-0.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/EJML-denseC64-0.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/EJML-equation-0.29.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

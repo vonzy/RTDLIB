@@ -1,0 +1,1922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7210cbb6-4361-4beb-8ec0-6a9b46487ecb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/EJML-core-0.29.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/EJML-dense64-0.29.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/EJML-denseC64-0.29.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/EJML-equation-0.29.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/EJML-simple-0.29.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/Rtdlib.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/StreamResource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/Streamable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/consumer/PositionConsumer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/ParserFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexNavigationParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexNavigationParserV2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexNavigationParserV212.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexNavigationParserV3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexObservationParser$SignalTypeConstants.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexObservationParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexObservationParserV2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexObservationParserV212.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexObservationParserV3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexObservationParserV302.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/parser/rinex/RinexPseudoRangeCorrectionParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/Constants.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/Coordinates.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/ObservationSet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/Observations.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/PseudoRangeCorrectionSet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/PseudoRangeCorrections.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/ReceiverPosition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/SatellitePosition.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/Time.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/TopocentricCoordinates.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/models/EphemerisBDS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/models/EphemerisGLONASS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/models/EphemerisGPS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/models/IonoBDS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/models/IonoGLONASS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/positioning/models/IonoGPS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/producer/TxtProducer.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/provider/EphemerisProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/provider/IonosphereCorrectionProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/provider/NavigationProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/provider/ObservationsProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/provider/PseudoRangeCorrectionProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/test/TestRTD.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/RTDLIB/org/von/rtdlib/test/TestSPP.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/description.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/EJML_simple_0_29.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/project-template.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RTDLIB.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/K03.16o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/K03.16p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/K09.16o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/K09.16p" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/corrections.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/StreamResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/Streamable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/consumer/PositionConsumer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/ParserFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV212.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV212.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV302.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexPseudoRangeCorrectionParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Coordinates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/ObservationSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Observations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/PseudoRangeCorrectionSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/PseudoRangeCorrections.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/ReceiverPosition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/SatellitePosition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Time.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/TopocentricCoordinates.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisBDS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisGLONASS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisGPS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoBDS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoGLONASS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoGPS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/producer/TxtProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/provider/EphemerisProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/provider/IonosphereCorrectionProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/provider/NavigationProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/provider/ObservationsProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/provider/PseudoRangeCorrectionProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/test/TestRTD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/von/rtdlib/test/TestSPP.java" />
+    </list>
+    <ignored path="DGNSS.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DGNSS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="ObservationsProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/provider/ObservationsProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PseudoRangeCorrectionProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/provider/PseudoRangeCorrectionProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSPP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/test/TestSPP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rtdlib.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="895" column="0" selection-start-line="895" selection-start-column="0" selection-end-line="895" selection-end-column="0" />
+              <folding>
+                <element signature="docComment;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#FREQ_L1#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#FREQ_L2#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#freq#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#DYN_MODEL_STATIC#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#DYN_MODEL_CONST_SPEED#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#roverIn#0;class#Rtdlib#0" expanded="false" />
+                <element signature="e#1471#1492#0" expanded="false" />
+                <element signature="docComment;field#WEIGHT_EQUAL#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#WEIGHT_SAT_ELEVATION#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#WEIGHT_SIGNAL_TO_NOISE_RATIO#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#WEIGHT_COMBINED_ELEVATION_SNR#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;field#weights#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#Rtdlib#0;class#Rtdlib#0" expanded="false" />
+                <element signature="e#3575#3612#0" expanded="false" />
+                <element signature="method#Rtdlib#1;class#Rtdlib#0" expanded="false" />
+                <element signature="e#3903#3940#0" expanded="false" />
+                <element signature="method#addPositionConsumerListener#0;class#Rtdlib#0" expanded="false" />
+                <element signature="e#7668#7694#0" expanded="false" />
+                <element signature="method#runSPP#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#runSPP#1;class#Rtdlib#0" expanded="false" />
+                <element signature="e#8445#8469#0" expanded="false" />
+                <element signature="e#11418#11444#0" expanded="false" />
+                <element signature="method#getAvailGnssSystems#0;class#Rtdlib#0" expanded="false" />
+                <element signature="e#14642#14726#0" expanded="false" />
+                <element signature="e#15730#15786#0" expanded="false" />
+                <element signature="e#17033#17053#0" expanded="false" />
+                <element signature="e#21204#21288#0" expanded="false" />
+                <element signature="e#22346#22402#0" expanded="false" />
+                <element signature="e#23678#23698#0" expanded="false" />
+                <element signature="docComment;method#computeSatelliteClockError#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#computeSatelliteClockError#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;method#computeSatPosition#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#computeSatPosition#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;method#computeEarthRotationCorrection#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#computeEarthRotationCorrection#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#computeTroposphereCorrection#0;class#Rtdlib#0" expanded="false" />
+                <element signature="e#26521#26581#0" expanded="false" />
+                <element signature="docComment;method#selectSatellitesStandalone#0;class#Rtdlib#0" expanded="false" />
+                <element signature="e#30166#30204#0" expanded="false" />
+                <element signature="e#31797#31883#0" expanded="false" />
+                <element signature="e#35637#35687#0" expanded="false" />
+                <element signature="method#computeIonosphereCorrection#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;method#getCutoff#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;method#setCutoff#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#notifyPositionConsumerEvent#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#notifyPositionConsumerAddCoordinate#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;method#getFreq#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;method#setFreq#0;class#Rtdlib#0" expanded="false" />
+                <element signature="method#computeWeight#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;method#getWeights#0;class#Rtdlib#0" expanded="false" />
+                <element signature="docComment;method#setWeights#0;class#Rtdlib#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestRTD.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/test/TestRTD.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="56.55">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PositionConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/consumer/PositionConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RinexNavigationParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+              <folding>
+                <element signature="method#RinexNavigationParser#1;class#RinexNavigationParser#0" expanded="false" />
+                <element signature="e#1989#2052#0" expanded="false" />
+                <element signature="e#2259#2319#0" expanded="false" />
+                <element signature="e#2568#2592#0" expanded="false" />
+                <element signature="method#parseHeader#0;class#RinexNavigationParser#0" expanded="false" />
+                <element signature="method#parseData#0;class#RinexNavigationParser#0" expanded="false" />
+                <element signature="method#open#0;class#RinexNavigationParser#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RinexNavigationParserV3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.9014722">
+              <caret line="129" column="30" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/org/von/dgnss/positioning/Rtdlib.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/Producer/TxtProducer.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Rtdlib.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/StreamResource.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/Streamable.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/RinexObservationParserV212.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV212.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/ReceiverPostion.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Constants.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/provider/NavigationProvider.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/provider/IonosphereCorrectionProvider.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoBDS.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoGLONASS.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV212.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/provider/EphemerisProvider.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Coordinates.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/TopocentricCoordinates.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/SatellitePosition.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/consumer/PositionConsumer.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/ReceiverPosition.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoGPS.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/producer/TxtProducer.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/SignalTypeConstants.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV3.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV303.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/ObservationSet.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisGPS.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV3.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisBDS.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV2.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV2.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisGLONASS.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Time.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexPRCParser.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV302.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/PRC.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/provider/PRCProvider.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/PseudoRangeCorrection.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/provider/PseudoRangeCorrectionProvider.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParser.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParser.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/Observations.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/PseudoRangeCorrectionSet.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/ParserFactory.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexPseudoRangeCorrectionParser.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/positioning/PseudoRangeCorrections.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/test/TestSPP.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/test/TestRTD.java" />
+        <option value="$PROJECT_DIR$/src/org/von/rtdlib/provider/ObservationsProvider.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtdlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtdlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="provider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtdlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="producer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtdlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="positioning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtdlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtdlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rinex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RTDLIB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rtdlib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="consumer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/EJML-equation-0.29.jar!/" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.von.rtdlib.parser.rinex" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.von.rtdlib.parser" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestRTD">
+    <configuration default="false" name="TestSPP" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.von.rtdlib.test.TestSPP" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RTDLIB" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DGNSS" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="TestRTD" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.von.rtdlib.test.TestRTD" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RTDLIB" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.TestRTD" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestSPP" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.TestSPP" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7210cbb6-4361-4beb-8ec0-6a9b46487ecb" name="Default" comment="" />
+      <created>1476591742624</created>
+      <option name="number" value="Default" />
+      <updated>1476591742624</updated>
+      <workItem from="1476591745325" duration="3117000" />
+      <workItem from="1476612468488" duration="5606000" />
+      <workItem from="1476619229239" duration="2503000" />
+      <workItem from="1476629005893" duration="624000" />
+      <workItem from="1476725046391" duration="326000" />
+      <workItem from="1476883603340" duration="637000" />
+      <workItem from="1476884305720" duration="871000" />
+      <workItem from="1476963426553" duration="7538000" />
+      <workItem from="1476972409006" duration="1827000" />
+      <workItem from="1477019348524" duration="2253000" />
+      <workItem from="1477024191414" duration="3067000" />
+      <workItem from="1477045797514" duration="674000" />
+      <workItem from="1477047763564" duration="4897000" />
+      <workItem from="1477059050643" duration="2093000" />
+      <workItem from="1477092916830" duration="790000" />
+      <workItem from="1477102607035" duration="1354000" />
+      <workItem from="1477299575740" duration="3500000" />
+      <workItem from="1477312785060" duration="2395000" />
+      <workItem from="1477361552970" duration="2821000" />
+      <workItem from="1477393491999" duration="7081000" />
+      <workItem from="1477407448862" duration="2558000" />
+      <workItem from="1477434299779" duration="1193000" />
+      <workItem from="1477438562092" duration="7483000" />
+      <workItem from="1477457037555" duration="24000" />
+      <workItem from="1477462738893" duration="6425000" />
+      <workItem from="1477471971474" duration="3884000" />
+      <workItem from="1477491378992" duration="2484000" />
+      <workItem from="1477520981628" duration="909000" />
+      <workItem from="1477525926314" duration="10367000" />
+      <workItem from="1477545912852" duration="414000" />
+      <workItem from="1477557078301" duration="945000" />
+      <workItem from="1477569003450" duration="5476000" />
+      <workItem from="1477581839204" duration="1941000" />
+      <workItem from="1477619620296" duration="4562000" />
+      <workItem from="1477629480607" duration="3713000" />
+      <workItem from="1477652579635" duration="7220000" />
+      <workItem from="1477665710522" duration="1288000" />
+      <workItem from="1477667216886" duration="1831000" />
+      <workItem from="1477697227827" duration="1056000" />
+      <workItem from="1477707293319" duration="405000" />
+      <workItem from="1477709036185" duration="3056000" />
+      <workItem from="1477715202655" duration="1265000" />
+      <workItem from="1477722149354" duration="1471000" />
+      <workItem from="1477734181178" duration="861000" />
+      <workItem from="1477738037535" duration="329000" />
+      <workItem from="1477738647179" duration="2518000" />
+      <workItem from="1477879583300" duration="5000" />
+      <workItem from="1478012749348" duration="3000" />
+      <workItem from="1478045174719" duration="3493000" />
+      <workItem from="1478178082983" duration="142000" />
+      <workItem from="1478187252534" duration="526000" />
+      <workItem from="1478507325662" duration="1556000" />
+      <workItem from="1479988658617" duration="186000" />
+      <workItem from="1480149562033" duration="1427000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="134990000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20754717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35038084" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09757412" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40914038" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV2.java</url>
+          <line>454</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>837</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV3.java</url>
+          <line>435</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV3.java</url>
+          <line>427</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>430</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>304</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>424</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>227</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>388</line>
+          <properties />
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisBDS.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisBDS.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisGLONASS.java</url>
+          <line>457</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/test/TestRTD.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java</url>
+          <line>899</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexPseudoRangeCorrectionParser.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="103" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="roverTopo[i].getElevation()" language="JAVA" custom="" />
+        <watch expression="roverSatAppRange[i] - pos[i].getSatelliteClockError() * Constants.SPEED_OF_LIGHT" language="JAVA" custom="" />
+        <watch expression="pos[i].getSatelliteClockError()" language="JAVA" custom="" />
+        <watch expression="roverObs.getSatByIDType(id, satType).getPseudorange(this.getFreq())" language="JAVA" custom="" />
+        <watch expression="satTypeAvail" language="JAVA" custom="" />
+        <watch expression="roverPos" language="JAVA" custom="" />
+        <watch expression="xg * Math.cos(Omega * tk)" language="JAVA" custom="" />
+        <watch expression="tGPS - toe" language="JAVA" custom="" />
+        <watch expression="ListOfPRCs" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/Coordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/Observations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="427" column="13" selection-start-line="427" selection-start-column="13" selection-end-line="427" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.von.rtdlib.provider.EphemerisProvider">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.von.rtdlib.provider.EphemerisProvider</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">org.von.rtdlib.provider.EphemerisProvider</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-160.0" y="-162.0" />
+          <SelectedNodes>
+            <node>org.von.rtdlib.provider.EphemerisProvider</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2140" column="18" selection-start-line="2140" selection-start-column="18" selection-end-line="2140" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/EJML-simple-0.29.jar!/org/ejml/simple/SimpleMatrix.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/ReceiverPosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoGPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.4883723">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/Streamable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoBDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/SatellitePosition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="398" column="25" selection-start-line="398" selection-start-column="25" selection-end-line="398" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/EJML-simple-0.29.jar!/org/ejml/simple/SimpleBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="251" column="13" selection-start-line="251" selection-start-column="13" selection-end-line="251" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/IonoGLONASS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisGPS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="548" column="0" selection-start-line="548" selection-start-column="0" selection-end-line="548" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisGLONASS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="298" column="63" selection-start-line="298" selection-start-column="63" selection-end-line="298" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV212.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV302.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="210" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParserV3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="342" column="34" selection-start-line="342" selection-start-column="34" selection-end-line="342" selection-end-column="34" />
+          <folding>
+            <element signature="docComment;class#RinexObservationParserV3#0" expanded="false" />
+            <element signature="method#RinexObservationParserV3#0;class#RinexObservationParserV3#0" expanded="false" />
+            <element signature="method#parseHeader#0;class#RinexObservationParserV3#0" expanded="false" />
+            <element signature="e#1015#1058#0" expanded="false" />
+            <element signature="method#parseTimeofFirstObs#0;class#RinexObservationParserV3#0" expanded="false" />
+            <element signature="e#2174#2241#0" expanded="false" />
+            <element signature="e#2432#2464#0" expanded="false" />
+            <element signature="docComment;method#parseTypes#0;class#RinexObservationParserV3#0" expanded="false" />
+            <element signature="method#parseTypes#0;class#RinexObservationParserV3#0" expanded="false" />
+            <element signature="docComment;method#assignTypeOrder#0;class#RinexObservationParserV3#0" expanded="false" />
+            <element signature="method#assignTypeOrder#0;class#RinexObservationParserV3#0" expanded="false" />
+            <element signature="e#9523#9552#0" expanded="false" />
+            <element signature="e#14358#14397#0" expanded="false" />
+            <element signature="e#14515#14549#0" expanded="false" />
+            <element signature="e#14806#14866#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/StreamResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/PseudoRangeCorrectionSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/PseudoRangeCorrections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/Observations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/ParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/ObservationSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="method#parseHeader#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="method#parseData#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="method#open#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="method#close#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="method#parseOneHeader#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="e#6268#6322#0" expanded="false" />
+            <element signature="e#6536#6590#0" expanded="false" />
+            <element signature="e#6803#6857#0" expanded="false" />
+            <element signature="e#7070#7124#0" expanded="false" />
+            <element signature="e#7840#7877#0" expanded="false" />
+            <element signature="e#8072#8109#0" expanded="false" />
+            <element signature="e#8372#8413#0" expanded="false" />
+            <element signature="method#getSystemTypeByFileName#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="method#parseBDSNav#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="e#9718#9727#0" expanded="false" />
+            <element signature="e#10401#10431#0" expanded="false" />
+            <element signature="e#16816#16840#0" expanded="false" />
+            <element signature="method#parseGLONASSNav#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="e#17693#17702#0" expanded="false" />
+            <element signature="e#18400#18430#0" expanded="false" />
+            <element signature="e#19162#19211#0" expanded="false" />
+            <element signature="e#23931#23967#0" expanded="false" />
+            <element signature="method#parseGPSNav#0;class#RinexNavigationParserV2#0" expanded="false" />
+            <element signature="e#25186#25195#0" expanded="false" />
+            <element signature="e#25913#25943#0" expanded="false" />
+            <element signature="e#32692#32716#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV212.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexObservationParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexPseudoRangeCorrectionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="method#hasMorePrcs#0;class#RinexPseudoRangeCorrectionParser#0" expanded="false" />
+            <element signature="method#open#0;class#RinexPseudoRangeCorrectionParser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235" column="25" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/producer/TxtProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/models/EphemerisBDS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="41" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+          <folding>
+            <element signature="docComment;class#EphemerisBDS#0" expanded="false" />
+            <element signature="e#530#553#0" expanded="false" />
+            <element signature="e#793#831#0" expanded="false" />
+            <element signature="e#3722#3736#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/Coordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="191" column="13" selection-start-line="191" selection-start-column="13" selection-end-line="191" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/TopocentricCoordinates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/provider/EphemerisProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#EphemerisProvider#0" expanded="false" />
+            <element signature="docComment;method#computeSatPosition#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="docComment;method#getRefTime#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="docComment;method#setRefTime#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="docComment;method#getSatType#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="docComment;method#setSatType#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="docComment;method#getSatID#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="docComment;method#setSatID#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="docComment;method#setSvHealth#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="method#checkGpsTime#0;class#EphemerisProvider#0" expanded="false" />
+            <element signature="method#computeClockCorrectedTransmissionTime#0;class#EphemerisProvider#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/provider/IonosphereCorrectionProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding>
+            <element signature="docComment;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#health#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#utcA1#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#utcA0#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#utcTOW#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#utcWNT#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#utcLS#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#utcWNF#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#utcDN#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#utcLSF#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#alpha#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#beta#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#validHealth#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#validUTC#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#validKlobuchar#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;field#refTime#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="method#IonosphereCorrectionProvider#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#IonosphereCorrectionProvider#1;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getRefTime#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setRefTime#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getHealth#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setHealth#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getUtcA1#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setUtcA1#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getUtcA0#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setUtcA0#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getUtcTOW#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setUtcTOW#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getUtcWNT#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setUtcWNT#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getUtcLS#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setUtcLS#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getUtcWNF#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setUtcWNF#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getUtcDN#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setUtcDN#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getUtcLSF#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setUtcLSF#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getAlpha#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setAlpha#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#getBeta#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setBeta#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#isValidHealth#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setValidHealth#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#isValidUTC#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setValidUTC#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#isValidKlobuchar#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+            <element signature="docComment;method#setValidKlobuchar#0;class#IonosphereCorrectionProvider#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/provider/NavigationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/provider/ObservationsProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/provider/PseudoRangeCorrectionProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/test/TestSPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/Rtdlib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="895" column="0" selection-start-line="895" selection-start-column="0" selection-end-line="895" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#FREQ_L1#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#FREQ_L2#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#freq#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#DYN_MODEL_STATIC#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#DYN_MODEL_CONST_SPEED#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#roverIn#0;class#Rtdlib#0" expanded="false" />
+            <element signature="e#1471#1492#0" expanded="false" />
+            <element signature="docComment;field#WEIGHT_EQUAL#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#WEIGHT_SAT_ELEVATION#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#WEIGHT_SIGNAL_TO_NOISE_RATIO#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#WEIGHT_COMBINED_ELEVATION_SNR#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;field#weights#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#Rtdlib#0;class#Rtdlib#0" expanded="false" />
+            <element signature="e#3575#3612#0" expanded="false" />
+            <element signature="method#Rtdlib#1;class#Rtdlib#0" expanded="false" />
+            <element signature="e#3903#3940#0" expanded="false" />
+            <element signature="method#addPositionConsumerListener#0;class#Rtdlib#0" expanded="false" />
+            <element signature="e#7668#7694#0" expanded="false" />
+            <element signature="method#runSPP#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#runSPP#1;class#Rtdlib#0" expanded="false" />
+            <element signature="e#8445#8469#0" expanded="false" />
+            <element signature="e#11418#11444#0" expanded="false" />
+            <element signature="method#getAvailGnssSystems#0;class#Rtdlib#0" expanded="false" />
+            <element signature="e#14642#14726#0" expanded="false" />
+            <element signature="e#15730#15786#0" expanded="false" />
+            <element signature="e#17033#17053#0" expanded="false" />
+            <element signature="e#21204#21288#0" expanded="false" />
+            <element signature="e#22346#22402#0" expanded="false" />
+            <element signature="e#23678#23698#0" expanded="false" />
+            <element signature="docComment;method#computeSatelliteClockError#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#computeSatelliteClockError#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;method#computeSatPosition#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#computeSatPosition#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;method#computeEarthRotationCorrection#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#computeEarthRotationCorrection#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#computeTroposphereCorrection#0;class#Rtdlib#0" expanded="false" />
+            <element signature="e#26521#26581#0" expanded="false" />
+            <element signature="docComment;method#selectSatellitesStandalone#0;class#Rtdlib#0" expanded="false" />
+            <element signature="e#30166#30204#0" expanded="false" />
+            <element signature="e#31797#31883#0" expanded="false" />
+            <element signature="e#35637#35687#0" expanded="false" />
+            <element signature="method#computeIonosphereCorrection#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;method#getCutoff#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;method#setCutoff#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#notifyPositionConsumerEvent#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#notifyPositionConsumerAddCoordinate#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;method#getFreq#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;method#setFreq#0;class#Rtdlib#0" expanded="false" />
+            <element signature="method#computeWeight#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;method#getWeights#0;class#Rtdlib#0" expanded="false" />
+            <element signature="docComment;method#setWeights#0;class#Rtdlib#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/test/TestRTD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/positioning/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="56.55">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/consumer/PositionConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="method#RinexNavigationParser#1;class#RinexNavigationParser#0" expanded="false" />
+            <element signature="e#1989#2052#0" expanded="false" />
+            <element signature="e#2259#2319#0" expanded="false" />
+            <element signature="e#2568#2592#0" expanded="false" />
+            <element signature="method#parseHeader#0;class#RinexNavigationParser#0" expanded="false" />
+            <element signature="method#parseData#0;class#RinexNavigationParser#0" expanded="false" />
+            <element signature="method#open#0;class#RinexNavigationParser#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/von/rtdlib/parser/rinex/RinexNavigationParserV3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.9014722">
+          <caret line="129" column="30" selection-start-line="129" selection-start-column="30" selection-end-line="129" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RTDLIB</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>EJML-simple-0.29</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,129 @@
+--------------------------------------------------------------------------------
+
+   RTDLIB: An Open Source Program Package for Differential GNSS Positioning
+
+--------------------------------------------------------------------------------
+
+
+This project is designed mainly for differential GNSS (differential pseudorange) 
+positioning on Android, so it's written in Java.
+
+Up to now, It supports standard and differential pseudorange positioning 
+algorithms with GPS, GLONASS and BeiDou. The features of RTDLIB are:
+
+(1) It's designed using OOP(Object-Oriented Programming). 
+The objects in RTDLIB are classified in 4 roles: Factory, Provider, Consumer and 
+Positioning procedure. The Factory is used to produce all kinds of Providers 
+depending on the types of input data file(or stream) . Then The Provider can 
+provide data for Positioning procedure. After Positioning is finished ,the Consumer 
+can get results and make them into many differential formats.
+For example, if you input a Rinex 3.00 observation file into Factory, then Factory
+can produce a Rinex 3.00 observation file parser that provide datas to Positioning 
+procedure. Meanwhile, you input a TxtProducer into Positioning procedure, so after
+Positioning is finished ,you can get positioning results in text.
+
+(2) It supports many standard formats and protocols for GNSS:
+
+RINEX 2.10,2.11,2.12 OBS/NAV/GNAV/CNAV
+RINEX 3.00,3.02 OBS/NAV
+Other formats and protocols will be supported in the future.
+
+--------------------------------------------------------------------------------
+
+SYSTEM REQUIEREMENTS
+
+The project is written in Java, so it's Operating system independent. it can be 
+built and run in any OS where JDK is installed.
+
+Notes: The project is developed in Idea with JDK 8.0, so it will be more 
+convinient if you use Idea.
+
+--------------------------------------------------------------------------------
+
+LICENSE
+
+The RTDLIB software package is developed by the modification of goGPS_Java 
+(https://github.com/goGPS-Project/goGPS_Java), so it's distributed under the 
+LGPL license (http://www.gnu.org/licenses/lgpl.html). Users are permitted to 
+develop, produce or sell their own non-commercial or commercial products 
+utilizing, linking or including RTDLIB as long as they comply with the license.
+
+          Copyright (c) 2016, Von, All rights reserved.
+
+
+--------------------------------------------------------------------------------
+
+DIRECTORY STRUCTURE OF PACKAGE
+
+RTDLIB_<ver>
+  ./src                source programs of RTDLIB library *
+    ./org/von/rtdlib   package name *
+      ./consumer       consumer interface definition *
+      ./parser         data parser *
+      ./positioning    positioning procedure *
+      ./producer       producer *
+      ./provider       provider definition *
+      ./test           test programs *
+  ./data               sample data *
+  ./libs               library genration environment *
+  ./test               program results *
+
+--------------------------------------------------------------------------------
+
+   RTDLIB:                      GNSS伪距差分开源程序库
+
+--------------------------------------------------------------------------------
+
+本程序的编程语言为Java,主要用于实现（安卓系统中）GNSS的伪距单点定位及伪距差分定位。
+到目前为止，它能够支持GPS、GLONASS以及北斗的伪距单点定位以及伪距差分单点定位。其特性
+如下：
+
+（1）本程序设计采用面向对象的思想，将程序中的对象分为四类：工厂（Factory）、数据提供者
+（Provider）、数据消费者（Consumer）和定位解算流程。工厂可以识别出输入的数据文件(流)，
+产生相应的数据提供者。而后数据提供者为定位解算流程提供数据。当解算完成后，数据消费者获
+取数据生成相应的（不同格式的）成果文件。
+打个比方，当你将Rinex 3.00的观测文件输入给工厂，那么工厂就会生成一个Rinex 3.00观测文件
+的数据解析者（Rinex 3.00 observation file parser）。与此同时，你将一个文本生产者
+（TxtProducer）作为数据消费者输入到定位解算流程中，当解算结束后，你就能得到一个包含定位
+结果的文本文件。
+(2) 本程序支持多种GNSS的协议和文件格式：
+RINEX 2.10,2.11,2.12 OBS/NAV/GNAV/CNAV
+RINEX 3.00,3.02 OBS/NAV
+更多协议和格式将被进一步支持。
+
+--------------------------------------------------------------------------------
+
+系统要求
+
+本程序由Java实现，因此在任何装有JDK的系统中都可以编译和运行。
+
+提示：本程序使用Idea开发，JDK版本为8.0，因此如果你使用Idea进行开发将会更方便。
+
+--------------------------------------------------------------------------------
+
+许可证
+
+RTDLIB是由开源项目goGPS_Java(https://github.com/goGPS-Project/goGPS_Java)修改而来，
+因此其继承了goGPS_Java的LGPL协议。所有用户都需要在LGPL许可证的约束下进行开发、发布及
+销售直接使用或间接使用到RTDLIB的相关程序。
+
+          Copyright (c) 2007-2013, Von, All rights reserved.
+
+--------------------------------------------------------------------------------
+
+程序主要目录介绍
+
+RTDLIB_<ver>
+  ./src                源代码 *
+    ./org/von/rtdlib   包名 *
+      ./consumer       数据消费者接口定义 *
+      ./parser         数据解析者 *
+      ./positioning    定位流程 *
+      ./producer       成果生产者 *
+      ./provider       数据提供者定义 *
+      ./test           测试程序 *
+  ./data               测试数据 *
+  ./libs               使用的外部程序库 *
+  ./test               运行结果输出 *
+
+--------------------------------------------------------------------------------
